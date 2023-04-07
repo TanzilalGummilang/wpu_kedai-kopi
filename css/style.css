@@ -16,6 +16,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg);
   color: #fff;
+  min-height: 2000px;
 }
 
 .navbar {
@@ -78,6 +79,16 @@ body {
 
 #hamburger-menu {
   display: none;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('/img/janko-ferlic-h9Iq22JJlGk-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* media queries */
